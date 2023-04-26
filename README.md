@@ -1,4 +1,4 @@
-# JS_practice_Assignment1_FabioWeck
+# JS_practice
 
 Assignment Overview
 
