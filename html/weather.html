@@ -1,0 +1,72 @@
+<!--
+ @name: Assignment1
+ @Course Code: SODV1201 - 23JANMNTR1
+ @class: Web Programming
+ @author: Fabio Augusto Weck  
+-->
+
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <title>Assignment1 - JS Practice</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="../css/css.css"> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+         
+    </head><!--End of head-->
+
+    <body onload="showDateAndTime();">
+
+        <header>
+
+            <div class="container">
+
+                <div class="title">
+                    <h1>Fabio Weck</h1>
+                </div><!--End of title-->
+
+                <div class="navbar">   
+
+                    <a href="../index.html">Profile</a>
+                    <a href="grades.html">Grades</a>
+                    <a href="staff.html">Staff</a>
+                    <a>Weather</a>
+               
+                </div><!--End of navbar-->
+
+            </div><!--End of container-->
+            
+        </header><!--End of header-->
+
+
+        <section>
+
+            <h2>Temperature Converter - Please enter a number below:</h2>
+            <input type="text" id="getTemp">
+
+            <div class="tempConverter">
+                
+                <button id="convertTemp1" type="button">°F to °C</button>
+                <button id="convertTemp2" type="button">°C to °F</button>
+                <button id="convertTemp3" type="button">°C to K</button>
+                
+            </div><!--End of tempConverter-->
+
+            <p id="showTemp">Your temperature</p>
+
+        </section><!--End of section-->
+
+
+        <footer>          
+            <p id="right">All rights reserved</p>
+        </footer><!--End of footer-->
+
+        
+        <script src="../js/a1_Fabio_index.js"></script>
+
+    </body><!--End of body-->
+
+</html>

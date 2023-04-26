@@ -1,0 +1,71 @@
+<!--
+ @name: Assignment1
+ @Course Code: SODV1201 - 23JANMNTR1
+ @class: Web Programming
+ @author: Fabio Augusto Weck  
+-->
+
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <title>Assignment1 - JS Practice</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="../css/css.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+         
+    </head><!--End of head-->
+
+    <body onload="showDateAndTime();">
+
+        <header>
+
+            <div class="container">
+
+                <div class="title">
+                    <h1>Fabio Weck</h1>
+                </div><!--End of title-->
+
+                <div class="navbar"> 
+
+                    <a href="../index.html">Profile</a>
+                    <a>Grades</a>
+                    <a href="staff.html">Staff</a>
+                    <a href="weather.html">Weather</a>
+                
+                </div><!--End of navbar-->
+
+            </div><!--End of container-->
+            
+        </header><!--End of header-->
+
+
+        <section>
+
+            <h2>On this page you can convert your mark to grade.</h2>
+            <h3>Enter your mark below</h3>
+
+            <div class="grades">
+
+                <input type="text" id="grade" >
+                <button type="button" id="checkGrade" onclick="MarkToGrade();">Check</button>
+                <p id="afterCheck">Your grade here</p>
+
+            </div><!--End of grades-->
+
+        </section><!--End of section-->
+
+
+        <footer>          
+            <p id="right">All rights reserved</p>
+        </footer><!--End of footer-->
+        
+        
+        <script src="../js/a1_Fabio_index.js"></script>
+
+    </body><!--End of body-->
+
+</html>

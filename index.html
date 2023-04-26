@@ -1,0 +1,97 @@
+<!--
+ @name: Assignment1
+ @Course Code: SODV1201 - 23JANMNTR1
+ @class: Web Programming
+ @author: Fabio Augusto Weck  
+-->
+
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <title>Assignment1 - JS Practice</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="css/css.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    </head><!--End of head-->
+
+    <body onload="showDateAndTime(); loadName();"> 
+
+        <header>
+
+            <div class="container">
+
+                <div class="title">
+                    <h1>Fabio Weck</h1>
+                </div><!--End of title-->
+
+                <div class="navbar">
+
+                    <a href="index.html">Profile</a>
+                    <a href="html/grades.html">Grades</a>
+                    <a href="html/staff.html">Staff</a>
+                    <a href="html/weather.html">Weather</a>
+
+                </div><!--End of navbar-->
+
+            </div><!--End of container-->
+            
+        </header><!--End of header-->
+        
+
+        <section style="display: block;">
+        
+            <h2>Javascript Essentials</h2>
+        
+            <p class="mainParagraph">
+                As you are going to figure out, I love  the 80's mood with all of its glow, mix of
+                vibrant colors, gradients, retro fashion, games, and synthwave songs - so I decided to try
+                to create a website making reference to that time.
+                This website is full responsive, go ahead and resize the browser or open it in a cellphone!
+            </p>
+
+            <div class="container2">
+
+                <div id="img-load">
+                    <img src="img/delorean.jpg" title="Click me to reload" alt="Delorean image" onclick="loadName()">
+                    <div id="load-bar">
+                        <div id="name-bar"></div>
+                    </div>
+                </div><!--End of img-load-->
+
+                <div>
+                    <p class="imgDescription">I choose a picture of a Delorean once this car model was 
+                        used as time machine in the movie Back To The Future (1985)
+                        and it represents the "old future" for me: the way people
+                        imagined how the following decades and technology would be!
+                    </p>
+                </div><!--End of description-->
+
+            </div><!--End of container2-->
+
+            <div id="audio">
+
+                <audio controls loop>
+                    <source src="audio/skylines.mp3" type="audio/ogg">
+                Your browser does not support the audio element.
+                </audio>
+
+            </div><!--End of audio-->
+
+        </section><!--End of section-->
+
+
+        <footer>           
+            <p id="right">All rights reserved</p>
+        </footer><!--End of footer-->
+
+        
+        <script src="js/a1_Fabio_index.js"></script>
+
+    </body><!--End of body-->
+
+</html>
